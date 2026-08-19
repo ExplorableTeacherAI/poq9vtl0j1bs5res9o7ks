@@ -82,6 +82,52 @@ export interface VariableDefinition {
  */
 export const variableDefinitions: Record<string, VariableDefinition> = {
     // ========================================
+    // PROJECTILE MOTION LESSON
+    // ========================================
+
+    // --- Practice section answers (Your turn on the field) ---
+    answerPracticeClimbTime: {
+        defaultValue: '',
+        type: 'text',
+        label: 'Practice: time to reach the top',
+        description: 'Seconds for the upward speed of 20 m/s to be cancelled by gravity',
+        placeholder: '???',
+        correctAnswer: ['2', '2 s', '2s'],
+        color: '#8E90F5',
+        bgColor: 'rgba(142, 144, 245, 0.15)',
+    },
+    answerPracticeFlightTime: {
+        defaultValue: '',
+        type: 'text',
+        label: 'Practice: total time of flight',
+        description: 'Total seconds in the air for the clearance',
+        placeholder: '???',
+        correctAnswer: ['4', '4 s', '4s'],
+        color: '#8E90F5',
+        bgColor: 'rgba(142, 144, 245, 0.15)',
+    },
+    answerPracticeMaxHeight: {
+        defaultValue: '',
+        type: 'text',
+        label: 'Practice: maximum height',
+        description: 'Peak height in metres for the clearance',
+        placeholder: '???',
+        correctAnswer: ['20', '20 m', '20m'],
+        color: '#F7B23B',
+        bgColor: 'rgba(247, 178, 59, 0.15)',
+    },
+    answerPracticeRange: {
+        defaultValue: '',
+        type: 'text',
+        label: 'Practice: range',
+        description: 'Horizontal distance in metres for the clearance',
+        placeholder: '???',
+        correctAnswer: ['60', '60 m', '60m'],
+        color: '#62D0AD',
+        bgColor: 'rgba(98, 208, 173, 0.15)',
+    },
+
+    // ========================================
     // ADD YOUR VARIABLES HERE
     // ========================================
 
