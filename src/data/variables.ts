@@ -85,6 +85,74 @@ export const variableDefinitions: Record<string, VariableDefinition> = {
     // PROJECTILE MOTION LESSON
     // ========================================
 
+    // --- Section 2: two journeys at once (drop vs kick race) ---
+    twoMotionsKickSpeed: {
+        defaultValue: 4,
+        type: 'number',
+        label: 'Sideways kick speed',
+        description: 'Horizontal launch speed of the kicked ball as it leaves the ledge',
+        unit: 'm/s',
+        min: 2,
+        max: 7,
+        step: 0.5,
+        color: '#62D0AD',
+    },
+    twoMotionsGuessHeight: {
+        defaultValue: 1.2,
+        type: 'number',
+        label: 'Predicted height of the kicked ball',
+        description: 'Student prediction, in metres, of where the kicked ball is when the dropped ball lands',
+        unit: 'm',
+        min: 0,
+        max: 1.8,
+        step: 0.05,
+        color: '#F7B23B',
+    },
+    twoMotionsPlaying: {
+        defaultValue: false,
+        type: 'boolean',
+        label: 'Race running',
+        description: 'True while the drop-versus-kick race is animating',
+    },
+    twoMotionsLanded: {
+        defaultValue: 0,
+        type: 'number',
+        label: 'Race finished',
+        description: 'Set to 1 once both balls have reached the ground',
+        min: 0,
+        max: 1,
+        step: 1,
+    },
+    twoMotionsHighlight: {
+        defaultValue: '',
+        type: 'text',
+        label: 'Race figure highlight',
+        description: 'Which path is highlighted in the race figure: drop or kick',
+        color: '#334155',
+        bgColor: 'rgba(51, 65, 85, 0.15)',
+    },
+    answerTwoMotionsLanding: {
+        defaultValue: '',
+        type: 'select',
+        label: 'Race question: landing order',
+        description: 'Does a horizontally thrown ball land before, with, or after a dropped one',
+        placeholder: '???',
+        correctAnswer: 'at the same time as',
+        options: ['before', 'at the same time as', 'after'],
+        color: '#8E90F5',
+        bgColor: 'rgba(142, 144, 245, 0.15)',
+    },
+    answerTwoMotionsDistance: {
+        defaultValue: '',
+        type: 'text',
+        label: 'Race question: horizontal distance',
+        description: 'How far from the wall the thrown ball lands',
+        placeholder: '???',
+        correctAnswer: ['30', '30 m', '30m'],
+        color: '#62D0AD',
+        bgColor: 'rgba(98, 208, 173, 0.15)',
+    },
+
     // --- Practice section answers (Your turn on the field) ---
     answerPracticeClimbTime: {
         defaultValue: '',
