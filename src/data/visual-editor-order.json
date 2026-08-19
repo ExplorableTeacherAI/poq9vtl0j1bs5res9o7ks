@@ -12,8 +12,8 @@
     "two-motions-question-distance",
     "splitting-heading",
     "splitting-setup",
-    "splitting-components-figure",
     "splitting-insight",
+    "splitting-components-figure",
     "splitting-question-basketball",
     "splitting-question-forty-five",
     "flight-heading",
@@ -135,7 +135,8 @@
       "type": "split",
       "columns": [
         [
-          "splitting-setup"
+          "splitting-setup",
+          "splitting-insight"
         ],
         [
           "splitting-components-figure"
@@ -146,18 +147,6 @@
         "gap": "lg",
         "reverse": false,
         "align": "start"
-      }
-    },
-    {
-      "id": "layout-splitting-insight",
-      "type": "stack",
-      "columns": [
-        [
-          "splitting-insight"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
       }
     },
     {
