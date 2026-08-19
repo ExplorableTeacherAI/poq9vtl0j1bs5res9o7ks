@@ -132,26 +132,20 @@
     },
     {
       "id": "layout-splitting-setup",
-      "type": "stack",
+      "type": "split",
       "columns": [
         [
           "splitting-setup"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
-      }
-    },
-    {
-      "id": "layout-splitting-components-figure",
-      "type": "stack",
-      "columns": [
+        ],
         [
           "splitting-components-figure"
         ]
       ],
       "props": {
-        "maxWidth": "xl"
+        "ratio": "1:1",
+        "gap": "lg",
+        "reverse": false,
+        "align": "start"
       }
     },
     {
