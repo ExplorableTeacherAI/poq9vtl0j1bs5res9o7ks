@@ -18,8 +18,8 @@
     "splitting-question-forty-five",
     "flight-heading",
     "flight-setup",
-    "flight-vertical-figure",
     "flight-insight",
+    "flight-vertical-figure",
     "flight-question-serve",
     "flight-question-top",
     "range-heading",
@@ -235,7 +235,8 @@
       "type": "split",
       "columns": [
         [
-          "flight-setup"
+          "flight-setup",
+          "flight-insight"
         ],
         [
           "flight-vertical-figure"
@@ -246,18 +247,6 @@
         "gap": "lg",
         "reverse": false,
         "align": "start"
-      }
-    },
-    {
-      "id": "layout-flight-insight",
-      "type": "stack",
-      "columns": [
-        [
-          "flight-insight"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
       }
     },
     {
