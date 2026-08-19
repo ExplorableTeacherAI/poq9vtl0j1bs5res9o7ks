@@ -279,6 +279,57 @@ export const variableDefinitions: Record<string, VariableDefinition> = {
         bgColor: 'rgba(247, 178, 59, 0.15)',
     },
 
+    // --- Section 5: how far does it land ---
+    rangeAngle: {
+        defaultValue: 20,
+        type: 'number',
+        label: 'Launch angle',
+        description: 'Angle of the 20 m/s kick above the pitch, in degrees',
+        unit: 'deg',
+        min: 10,
+        max: 85,
+        step: 0.5,
+        color: '#62D0AD',
+    },
+    rangeHighlight: {
+        defaultValue: '',
+        type: 'text',
+        label: 'Range figure highlight',
+        description: 'Which element is highlighted: arc or ground',
+        color: '#334155',
+        bgColor: 'rgba(51, 65, 85, 0.15)',
+    },
+    rangeExplored: {
+        defaultValue: 0,
+        type: 'number',
+        label: 'Range figure explored',
+        description: 'Set to 1 once the student has swung the launch arrow',
+        min: 0,
+        max: 1,
+        step: 1,
+    },
+    answerRangeTwinAngle: {
+        defaultValue: '',
+        type: 'text',
+        label: 'The other angle that reaches the cone',
+        description: 'Complementary angle to a 25 degree launch',
+        placeholder: '???',
+        correctAnswer: ['65', '65 degrees', '65°'],
+        color: '#62D0AD',
+        bgColor: 'rgba(98, 208, 173, 0.15)',
+    },
+    answerRangeSteeper: {
+        defaultValue: '',
+        type: 'select',
+        label: 'Steeper than forty five',
+        description: 'What happens to the range when the angle goes from 45 to 70 degrees',
+        placeholder: '???',
+        correctAnswer: 'lands shorter',
+        options: ['lands further away', 'lands in the same place', 'lands shorter'],
+        color: '#F7B23B',
+        bgColor: 'rgba(247, 178, 59, 0.15)',
+    },
+
     // --- Practice section answers (Your turn on the field) ---
     answerPracticeClimbTime: {
         defaultValue: '',
