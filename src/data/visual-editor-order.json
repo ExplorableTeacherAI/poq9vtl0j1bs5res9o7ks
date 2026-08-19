@@ -6,8 +6,8 @@
     "orient-promise",
     "two-motions-heading",
     "two-motions-setup",
-    "two-motions-race-figure",
     "two-motions-insight",
+    "two-motions-race-figure",
     "two-motions-question-order",
     "two-motions-question-distance",
     "splitting-heading",
@@ -91,7 +91,8 @@
       "type": "split",
       "columns": [
         [
-          "two-motions-setup"
+          "two-motions-setup",
+          "two-motions-insight"
         ],
         [
           "two-motions-race-figure"
@@ -102,18 +103,6 @@
         "gap": "lg",
         "reverse": false,
         "align": "start"
-      }
-    },
-    {
-      "id": "layout-two-motions-insight",
-      "type": "stack",
-      "columns": [
-        [
-          "two-motions-insight"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
       }
     },
     {
