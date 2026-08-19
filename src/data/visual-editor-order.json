@@ -88,26 +88,20 @@
     },
     {
       "id": "layout-two-motions-setup",
-      "type": "stack",
+      "type": "split",
       "columns": [
         [
           "two-motions-setup"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
-      }
-    },
-    {
-      "id": "layout-two-motions-race-figure",
-      "type": "stack",
-      "columns": [
+        ],
         [
           "two-motions-race-figure"
         ]
       ],
       "props": {
-        "maxWidth": "xl"
+        "ratio": "1:1",
+        "gap": "lg",
+        "reverse": false,
+        "align": "start"
       }
     },
     {
