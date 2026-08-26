@@ -52,15 +52,20 @@
     },
     {
       "id": "layout-orient-promise",
-      "type": "stack",
+      "type": "split",
       "columns": [
         [
-          "orient-opening",
+          "orient-opening"
+        ],
+        [
           "orient-promise"
         ]
       ],
       "props": {
-        "maxWidth": "xl"
+        "ratio": "1:1",
+        "gap": "lg",
+        "reverse": false,
+        "align": "start"
       }
     },
     {
