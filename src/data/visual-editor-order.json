@@ -5,6 +5,7 @@
     "orient-opening",
     "orient-promise",
     "block-1787717814218",
+    "block-1787717978350",
     "block-1787711136377",
     "two-motions-heading",
     "two-motions-setup",
@@ -75,6 +76,18 @@
       "columns": [
         [
           "block-1787717814218"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-block-1787717978350",
+      "type": "stack",
+      "columns": [
+        [
+          "block-1787717978350"
         ]
       ],
       "props": {

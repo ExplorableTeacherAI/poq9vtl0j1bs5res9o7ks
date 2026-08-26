@@ -24,6 +24,12 @@ export const projectileOrientBlocks: ReactElement[] = [
         </Block>
     </StackLayout>,
 
+    <StackLayout key="layout-block-1787717978350" maxWidth="xl">
+        <Block id="block-1787717978350" padding="sm">
+            <EditableParagraph id="para-block-1787717978350" blockId="block-1787717978350">/</EditableParagraph>
+        </Block>
+    </StackLayout>,
+
     <StackLayout key="layout-block-1787711136377" maxWidth="xl">
     <Block id="block-1787711136377" padding="sm">
         <EditableParagraph id="para-block-1787711136377" blockId="block-1787711136377"></EditableParagraph>
