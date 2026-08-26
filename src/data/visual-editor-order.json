@@ -4,6 +4,7 @@
     "orient-title",
     "orient-opening",
     "orient-promise",
+    "block-1787717814218",
     "block-1787711136377",
     "two-motions-heading",
     "two-motions-setup",
@@ -66,6 +67,18 @@
         "gap": "lg",
         "reverse": false,
         "align": "start"
+      }
+    },
+    {
+      "id": "layout-block-1787717814218",
+      "type": "stack",
+      "columns": [
+        [
+          "block-1787717814218"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
       }
     },
     {
