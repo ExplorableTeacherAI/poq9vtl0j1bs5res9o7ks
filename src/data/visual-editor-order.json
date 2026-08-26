@@ -51,22 +51,11 @@
       }
     },
     {
-      "id": "layout-orient-opening",
-      "type": "stack",
-      "columns": [
-        [
-          "orient-opening"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
-      }
-    },
-    {
       "id": "layout-orient-promise",
       "type": "stack",
       "columns": [
         [
+          "orient-opening",
           "orient-promise"
         ]
       ],
