@@ -488,7 +488,7 @@ export const projectileTwoMotionsBlocks: ReactElement[] = [
 
     <StackLayout key="layout-two-motions-question-order" maxWidth="xl">
         <Block id="two-motions-question-order" padding="sm">
-            <EditableParagraph id="para-two-motions-question-order" blockId="two-motions-question-order"></EditableParagraph>
+            <EditableParagraph id="para-two-motions-question-order" blockId="two-motions-question-order">/</EditableParagraph>
         </Block>
     </StackLayout>,
 
