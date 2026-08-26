@@ -2,9 +2,9 @@
   "version": 3,
   "blockIds": [
     "orient-title",
+    "orient-promise",
     "orient-opening",
     "block-1787717814218",
-    "orient-promise",
     "block-1787717978350",
     "block-1787711136377",
     "two-motions-heading",
@@ -53,6 +53,18 @@
       }
     },
     {
+      "id": "editor-full-orient-promise",
+      "type": "stack",
+      "columns": [
+        [
+          "orient-promise"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
       "id": "layout-orient-promise",
       "type": "stack",
       "columns": [
@@ -70,18 +82,6 @@
       "columns": [
         [
           "block-1787717814218"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
-      }
-    },
-    {
-      "id": "editor-full-orient-promise",
-      "type": "stack",
-      "columns": [
-        [
-          "orient-promise"
         ]
       ],
       "props": {
