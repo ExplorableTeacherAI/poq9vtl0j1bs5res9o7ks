@@ -544,29 +544,8 @@ export const projectileTwoMotionsBlocks: ReactElement[] = [
     </StackLayout>,
 
     <StackLayout key="layout-two-motions-question-distance" maxWidth="xl">
-        <Block id="two-motions-question-distance" padding="sm">
-            <EditableParagraph id="para-two-motions-question-distance" blockId="two-motions-question-distance">
-                <RevealOnInteraction varName="twoMotionsLanded">
-                    That fall takes a full second, and nothing slows the cricket ball's forward rush, so it thumps down{" "}
-                    <InlineFeedback
-                        varName="answerTwoMotionsDistance"
-                        correctValue={["30", "30 m", "30m"]}
-                        position="terminal"
-                        successMessage="— exactly, 30 m/s held steady for one whole second"
-                        failureMessage="— not quite."
-                        hint="Forward speed never changes, so distance is just speed multiplied by time"
-                        reviewBlockId="two-motions-insight"
-                        reviewLabel="Revisit the race"
-                    >
-                        <InlineClozeInput
-                            varName="answerTwoMotionsDistance"
-                            correctAnswer={["30", "30 m", "30m"]}
-                            {...clozePropsFromDefinition(getVariableInfo('answerTwoMotionsDistance'))}
-                        />
-                    </InlineFeedback>{" "}
-                    metres from the wall.
-                </RevealOnInteraction>
-            </EditableParagraph>
+        <Block id="two-motions-question-distance"jfengengie   padding="sm">
+            <EditableParagraph id="para-two-motions-question-distance" blockId="two-motions-question-distance">jfengengie   </EditableParagraph>
         </Block>
     </StackLayout>,
 ];
