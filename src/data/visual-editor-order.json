@@ -8,7 +8,6 @@
     "two-motions-setup",
     "two-motions-insight",
     "two-motions-question-order",
-    "two-motions-race-figure",
     "two-motions-question-distance",
     "splitting-heading",
     "splitting-setup",
@@ -77,22 +76,16 @@
     },
     {
       "id": "layout-two-motions-setup",
-      "type": "split",
+      "type": "stack",
       "columns": [
         [
           "two-motions-setup",
           "two-motions-insight",
           "two-motions-question-order"
-        ],
-        [
-          "two-motions-race-figure"
         ]
       ],
       "props": {
-        "ratio": "1:1",
-        "gap": "lg",
-        "reverse": false,
-        "align": "start"
+        "maxWidth": "xl"
       }
     },
     {

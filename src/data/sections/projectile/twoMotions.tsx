@@ -457,12 +457,6 @@ export const projectileTwoMotionsBlocks: ReactElement[] = [
         </Block>
     </StackLayout>,
 
-    <StackLayout key="layout-two-motions-race-figure" maxWidth="xl">
-        <Block id="two-motions-race-figure" padding="sm" hasVisualization>
-            <RaceFigure />
-        </Block>
-    </StackLayout>,
-
     <StackLayout key="layout-two-motions-insight" maxWidth="xl">
         <Block id="two-motions-insight" padding="sm">
             <EditableParagraph id="para-two-motions-insight" blockId="two-motions-insight">
