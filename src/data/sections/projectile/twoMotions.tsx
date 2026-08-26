@@ -488,58 +488,7 @@ export const projectileTwoMotionsBlocks: ReactElement[] = [
 
     <StackLayout key="layout-two-motions-question-order" maxWidth="xl">
         <Block id="two-motions-question-order" padding="sm">
-            <EditableParagraph id="para-two-motions-question-order" blockId="two-motions-question-order">
-                <RevealOnInteraction
-                    varName="twoMotionsLanded"
-                    placeholder="Run the race above to unlock the questions."
-                >
-                    A fielder hurls a cricket ball horizontally at 30 m/s from a 5 m balcony, and at that instant a
-                    second ball rolls off the edge. The thrown ball reaches the ground{" "}
-                    <InlineFeedback
-                        varName="answerTwoMotionsLanding"
-                        correctValue="at the same time as"
-                        position="terminal"
-                        successMessage="— yes, its sideways speed has no say in how fast gravity brings it down"
-                        failureMessage="— have another look at the race."
-                        hint="Watch the dashed lines joining the two balls in the figure"
-                        reviewBlockId="two-motions-insight"
-                        reviewLabel="Revisit the race"
-                        visualizationHint={{
-                            blockId: "two-motions-race-figure",
-                            hintKey: "feedback-two-motions-race",
-                            steps: [
-                                {
-                                    gesture: "drag-vertical",
-                                    label: "Drag the amber ghost right down onto the grass",
-                                    position: { x: "60%", y: "62%" },
-                                    dragPath: { type: "line", startOffset: { x: 0, y: -25 }, endOffset: { x: 0, y: 25 } },
-                                    completionVar: "twoMotionsGuessHeight",
-                                    completionValue: 0,
-                                    completionTolerance: 0.25,
-                                },
-                                {
-                                    gesture: "click",
-                                    label: "Now press play — do the two balls touch down together?",
-                                    position: { x: "88%", y: "8%" },
-                                    completionVar: "twoMotionsLanded",
-                                    completionValue: 1,
-                                    completionTolerance: 0.4,
-                                },
-                            ],
-                            label: "Discover it yourself",
-                            resetVars: { twoMotionsGuessHeight: 1.2, twoMotionsPlaying: false, twoMotionsLanded: 0 },
-                        }}
-                    >
-                        <InlineClozeChoice
-                            varName="answerTwoMotionsLanding"
-                            correctAnswer="at the same time as"
-                            options={["before", "at the same time as", "after"]}
-                            {...choicePropsFromDefinition(getVariableInfo('answerTwoMotionsLanding'))}
-                        />
-                    </InlineFeedback>{" "}
-                    the dropped one.
-                </RevealOnInteraction>
-            </EditableParagraph>
+            <EditableParagraph id="para-two-motions-question-order" blockId="two-motions-question-order">Run the race above to unl/ock the questions.</EditableParagraph>
         </Block>
     </StackLayout>,
 
