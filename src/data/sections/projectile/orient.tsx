@@ -14,7 +14,7 @@ export const projectileOrientBlocks: ReactElement[] = [
 
     <StackLayout key="layout-orient-opening" maxWidth="xl">
         <Block id="orient-opening" padding="sm">
-            <EditableParagraph id="para-orient-opening" blockId="orient-opening">Kick a football and it traces the same smooth curve every time. That curve is called projectile motion, and it hides something strange: two completely separate journeys happening at once, sharing one clock.</EditableParagraph>
+            <EditableParagraph id="para-orient-opening" blockId="orient-opening">Kick a football and it traces the same smooth curve every time. That curve is called projectile motion, and it hides something strange: two completely separate journeys happening at once, sharing one clock. /</EditableParagraph>
         </Block>
     </StackLayout>,
 
