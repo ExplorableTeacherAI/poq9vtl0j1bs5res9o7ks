@@ -1,8 +1,8 @@
 {
   "version": 3,
   "blockIds": [
-    "orient-promise",
     "orient-title",
+    "orient-promise",
     "orient-opening",
     "block-1787717814218",
     "block-1787717978350",
@@ -42,20 +42,15 @@
   "rows": [
     {
       "id": "layout-orient-title",
-      "type": "split",
+      "type": "stack",
       "columns": [
         [
+          "orient-title",
           "orient-promise"
-        ],
-        [
-          "orient-title"
         ]
       ],
       "props": {
-        "ratio": "1:1",
-        "gap": "lg",
-        "reverse": false,
-        "align": "start"
+        "maxWidth": "xl"
       }
     },
     {
