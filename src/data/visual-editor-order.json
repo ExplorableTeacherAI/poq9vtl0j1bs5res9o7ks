@@ -45,18 +45,7 @@
       "type": "stack",
       "columns": [
         [
-          "orient-title"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
-      }
-    },
-    {
-      "id": "editor-full-orient-promise",
-      "type": "stack",
-      "columns": [
-        [
+          "orient-title",
           "orient-promise"
         ]
       ],
