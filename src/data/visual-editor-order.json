@@ -191,18 +191,7 @@
       "type": "stack",
       "columns": [
         [
-          "splitting-setup"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
-      }
-    },
-    {
-      "id": "layout-splitting-components-figure",
-      "type": "stack",
-      "columns": [
-        [
+          "splitting-setup",
           "splitting-components-figure"
         ]
       ],
