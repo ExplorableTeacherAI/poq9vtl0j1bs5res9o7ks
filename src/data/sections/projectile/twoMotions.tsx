@@ -444,16 +444,7 @@ export const projectileTwoMotionsBlocks: ReactElement[] = [
 
     <StackLayout key="layout-two-motions-setup" maxWidth="xl">
         <Block id="two-motions-setup" padding="sm">
-            <EditableParagraph id="para-two-motions-setup" blockId="two-motions-setup">
-                Here is a claim that sounds wrong. Knocked sideways off a ledge at{" "}
-                <InlineScrubbleNumber
-                    varName="twoMotionsKickSpeed"
-                    {...numberPropsFromDefinition(getVariableInfo('twoMotionsKickSpeed'))}
-                    formatValue={(value: number) => `${value.toFixed(1)} m/s`}
-                />
-                , a ball reaches the grass at the same instant as one simply dropped. Place your amber ghost where you
-                think the kicked ball will be when the dropped one lands, then press play.
-            </EditableParagraph>
+            <EditableParagraph id="para-two-motions-setup" blockId="two-motions-setup">Here is a claim that sounds wrong. Knocked sideways off a ledge at <InlineScrubbleNumber varName={"twoMotionsKickSpeed"} defaultValue={4} min={2} max={7} step={0.5} color={"#62D0AD"} id={"scrubble-1787812952568-dz4x6"} />, a ball reaches the grass at the same instant as one simply dropped. Place your amber ghost where you think the kicked ball will be when the dropped one lands, then press play. /</EditableParagraph>
         </Block>
     </StackLayout>,
 
