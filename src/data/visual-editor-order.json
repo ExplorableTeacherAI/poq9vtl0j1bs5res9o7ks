@@ -41,27 +41,21 @@
   ],
   "rows": [
     {
-      "id": "editor-full-orient-promise",
-      "type": "stack",
+      "id": "layout-orient-title",
+      "type": "split",
       "columns": [
         [
           "orient-promise"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
-      }
-    },
-    {
-      "id": "layout-orient-title",
-      "type": "stack",
-      "columns": [
+        ],
         [
           "orient-title"
         ]
       ],
       "props": {
-        "maxWidth": "xl"
+        "ratio": "1:1",
+        "gap": "lg",
+        "reverse": false,
+        "align": "start"
       }
     },
     {
