@@ -2,9 +2,9 @@
   "version": 3,
   "blockIds": [
     "orient-title",
-    "orient-promise",
     "block-1787822505002",
     "orient-opening",
+    "orient-promise",
     "block-1787717814218",
     "block-1787717978350",
     "block-1787711136377",
@@ -47,7 +47,6 @@
       "columns": [
         [
           "orient-title",
-          "orient-promise",
           "block-1787822505002"
         ]
       ],
@@ -69,14 +68,20 @@
     },
     {
       "id": "layout-block-1787711136377",
-      "type": "stack",
+      "type": "split",
       "columns": [
+        [
+          "orient-promise"
+        ],
         [
           "block-1787717814218"
         ]
       ],
       "props": {
-        "maxWidth": "xl"
+        "ratio": "1:1",
+        "gap": "lg",
+        "reverse": false,
+        "align": "start"
       }
     },
     {
