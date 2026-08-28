@@ -42,22 +42,11 @@
   ],
   "rows": [
     {
-      "id": "layout-orient-title",
-      "type": "stack",
-      "columns": [
-        [
-          "orient-title"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
-      }
-    },
-    {
       "id": "layout-block-1787717814218",
       "type": "stack",
       "columns": [
         [
+          "orient-title",
           "orient-promise",
           "block-1787822505002"
         ]
