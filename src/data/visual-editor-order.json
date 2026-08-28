@@ -182,15 +182,20 @@
     },
     {
       "id": "layout-splitting-setup",
-      "type": "stack",
+      "type": "split",
       "columns": [
         [
-          "splitting-setup",
+          "splitting-setup"
+        ],
+        [
           "splitting-components-figure"
         ]
       ],
       "props": {
-        "maxWidth": "xl"
+        "ratio": "1:1",
+        "gap": "lg",
+        "reverse": false,
+        "align": "start"
       }
     },
     {
