@@ -15,7 +15,7 @@ export const projectilePracticeBlocks: ReactElement[] = [
 
     <StackLayout key="layout-practice-scenario" maxWidth="xl">
         <Block id="practice-scenario" padding="sm">
-            <EditableParagraph id="para-practice-scenario" blockId="practice-scenario">z</EditableParagraph>
+            <EditableParagraph id="para-practice-scenario" blockId="practice-scenario">/</EditableParagraph>
         </Block>
     </StackLayout>,
 
