@@ -15,10 +15,7 @@ export const projectilePracticeBlocks: ReactElement[] = [
 
     <StackLayout key="layout-practice-scenario" maxWidth="xl">
         <Block id="practice-scenario" padding="sm">
-            <EditableParagraph id="para-practice-scenario" blockId="practice-scenario">
-                A goalkeeper thumps a clearance downfield. Split into its two parts, the ball leaves the boot climbing
-                at 20 m/s and travelling forwards at 15 m/s.
-            </EditableParagraph>
+            <EditableParagraph id="para-practice-scenario" blockId="practice-scenario"></EditableParagraph>
         </Block>
     </StackLayout>,
 
